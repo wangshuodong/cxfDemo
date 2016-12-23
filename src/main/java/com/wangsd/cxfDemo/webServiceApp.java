@@ -9,7 +9,7 @@ public class webServiceApp {
     public static void main(String[] args) {
         System.out.println("web service start");
         HelloWorldImpl implementor = new HelloWorldImpl();
-        String address = "http://192.168.205.74:8080/helloWorld";
+        String address = "http://192.168.205.74:9999/helloWorld";
         Endpoint.publish(address, implementor);
         System.out.println("web service started");
     }
