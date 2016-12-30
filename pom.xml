@@ -26,7 +26,7 @@
         <ns1:parameter name="allowedMethods" value="*"/>
         <ns1:parameter name="typeMappingVersion" value="1.2"/>
         <ns1:parameter name="wsdlPortType" value="ItmsOrderInterface"/>
-        <ns1:parameter name="className" value="com.cmiot.jiangsuWS.CMS.OperationDistributeServiceSoapBindingSkeleton"/>
+        <ns1:parameter name="className" value=" com.cmiot.jsuws.wsb.cms.OperationDistributeServiceSoapBindingSkeleton"/>
         <ns1:parameter name="wsdlServicePort" value="OperationDistributeService"/>
         <ns1:parameter name="wsdlTargetNamespace" value="http://183.207.194.211:5482/NorthInterface/services/OperationDistributeService"/>
         <ns1:parameter name="wsdlServiceElement" value="ItmsOrderInterfaceService"/>
@@ -67,7 +67,7 @@
         <ns1:parameter name="wsdlPortType" value="AMSService"/>
         <ns1:parameter name="typeMappingVersion" value="1.2"/>
         <ns1:parameter name="wsdlServicePort" value="AMSService"/>
-        <ns1:parameter name="className" value="com.cmiot.jiangsuWS.AMS.AMSServiceSoapBindingSkeleton"/>
+        <ns1:parameter name="className" value="com.cmiot.jsuws.wsb.ams.AMSServiceSoapBindingSkeleton"/>
         <ns1:parameter name="wsdlTargetNamespace" value="http://10.40.103.47:5482/NorthInterface/services/AMSService"/>
         <ns1:parameter name="wsdlServiceElement" value="AMSServiceService"/>
         <ns1:parameter name="schemaUnqualified" value="http://10.40.103.47:5482/NorthInterface/services/AMSService"/>
